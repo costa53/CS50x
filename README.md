@@ -43,3 +43,8 @@
       - [credit](https://github.com/costa53/CS50x/tree/main/pset6/sentimental-credit)
       - [readability](https://github.com/costa53/CS50x/tree/main/pset6/sentimental-readability)
       - [dna](https://github.com/costa53/CS50x/tree/main/pset6/dna)
+* #### Week 7
+   - [Lab 7: Songs](https://github.com/costa53/CS50x/tree/main/labs/lab7)
+   - [Problem Set 7: SQL](https://github.com/costa53/CS50x/tree/main/pset7)
+      - [movies](https://github.com/costa53/CS50x/tree/main/pset7/movies)
+      - [fiftyville](https://github.com/costa53/CS50x/tree/main/pset7/fiftyville)
