@@ -48,3 +48,7 @@
    - [Problem Set 7: SQL](https://github.com/costa53/CS50x/tree/main/pset7)
       - [movies](https://github.com/costa53/CS50x/tree/main/pset7/movies)
       - [fiftyville](https://github.com/costa53/CS50x/tree/main/pset7/fiftyville)
+* #### Week 8
+   - [Lab 8: Trivia](https://github.com/costa53/CS50x/tree/main/labs/lab8)
+   - [Problem Set 8: HTML, CSS, JavaScript](https://github.com/costa53/CS50x/tree/main/pset8)
+      - [homepage](https://github.com/costa53/CS50x/tree/main/pset8/homepage) 
