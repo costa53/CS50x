@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="/static/styles.css" rel="stylesheet">
+        <title>Birthdays</title>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Birthdays</h1>
+        </div>
+        <div class="container">
+            <div class="section">
+
+                <h2>Add a Birthday</h2>
+                <!-- TODO: Create a form for users to submit a name, a month, and a day -->
+                <form action="/" method="POST">
+                    <input name="name" placeholder="Name" type="text">
+                    <input name="month" placeholder="Month" type="number" min="1" max="12">
+                    <input name="day" placeholder="Day" type="number" min="1" max="31">
+                    <button type="submit">Add Birthday</button>
+                </form>
+            </div>
+
+            <div class="section">
+
+                <h2>All Birthdays</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Birthday</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- TODO: Loop through the database entries to display them in this table -->
+                        {% for person in people %}
+                            <tr>
+                                <td>{{ person.name }}</td>
+                                <td>{{ person.month }}/{{ person.day }}</td>
+                                <td>
+                                    <form action="/delete" method="POST">
+                                        <input name="delete" value="{{ person.id }}" type="hidden">
+                                        <input type="image" src="
+                                        https://user-images.githubusercontent.com/99206239/196436022-72c1f31d-a5e4-44f2-8b8d-b23cd5697e9f.png">
+                                    </form>
+                                </td>
+                            </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </body>
+</html>
