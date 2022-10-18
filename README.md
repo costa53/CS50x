@@ -52,3 +52,8 @@
    - [Lab 8: Trivia](https://github.com/costa53/CS50x/tree/main/labs/lab8)
    - [Problem Set 8: HTML, CSS, JavaScript](https://github.com/costa53/CS50x/tree/main/pset8)
       - [homepage](https://github.com/costa53/CS50x/tree/main/pset8/homepage) 
+* #### Week 9
+   - [Lab 9: Birthdays](https://github.com/costa53/CS50x/tree/main/labs/lab9)
+   - [Problem Set 9: Flask](https://github.com/costa53/CS50x/tree/main/pset9)
+      - [finance](https://github.com/costa53/CS50x/tree/main/pset9/finance)
+      
